@@ -1,4 +1,12 @@
-import { FaReact, FaCss3Alt, FaDatabase, FaCode } from "react-icons/fa";
+import {
+  FaReact,
+  FaCss3Alt,
+  FaCloudUploadAlt,
+  FaCode,
+  FaNodeJs,
+  FaBookOpen,
+  FaGitAlt,
+} from "react-icons/fa";
 
 function About() {
   return (
@@ -38,13 +46,13 @@ function About() {
             </p>
           </div>
           <div className="flex flex-col items-center border border-white/25 rounded-md p-6">
-            <FaDatabase className="text-green-400 text-6xl mb-4" />
+            <FaCloudUploadAlt className="text-blue-400 text-6xl mb-4" />
             <span className="text-xl font-semibold text-gray-100">
-              Appwrite
+              Vercel Deployment
             </span>
             <p className="text-center text-gray-400 mt-2">
-              An open-source backend-as-a-service platform providing user
-              authentication and data management solutions.
+              A cloud platform for static sites and serverless functions,
+              enabling developers to deploy websites and applications with ease.
             </p>
           </div>
           <div className="flex flex-col items-center border border-white/25 rounded-md p-6">
@@ -55,6 +63,33 @@ function About() {
             <p className="text-center text-gray-400 mt-2">
               A syntax extension for JavaScript, enabling the creation of HTML
               elements within React components.
+            </p>
+          </div>
+          <div className="flex flex-col items-center border border-white/25 rounded-md p-6">
+            <FaNodeJs className="text-green-500 text-6xl mb-4" />
+            <span className="text-xl font-semibold text-gray-100">Node.js</span>
+            <p className="text-center text-gray-400 mt-2">
+              A JavaScript runtime built on Chrome&apos;s V8 engine, used for
+              building fast and scalable server-side applications.
+            </p>
+          </div>
+          <div className="flex flex-col items-center border border-white/25 rounded-md p-6">
+            <FaBookOpen className="text-purple-500 text-6xl mb-4" />
+            <span className="text-xl font-semibold text-gray-100">
+              Storybook
+            </span>
+            <p className="text-center text-gray-400 mt-2">
+              An open-source tool for developing UI components in isolation,
+              making it easy to build and test components independently.
+            </p>
+          </div>
+          <div className="flex flex-col items-center border border-white/25 rounded-md p-6">
+            <FaGitAlt className="text-orange-500 text-6xl mb-4" />
+            <span className="text-xl font-semibold text-gray-100">Git</span>
+            <p className="text-center text-gray-400 mt-2">
+              A distributed version control system that helps developers track
+              changes in source code during software development, facilitating
+              collaboration.
             </p>
           </div>
         </div>

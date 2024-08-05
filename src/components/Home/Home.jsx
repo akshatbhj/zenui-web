@@ -19,7 +19,7 @@ function Home() {
       </div>
       <main>
         <section className="flex flex-col justify-center  bg-black items-center w-full h-[500px]">
-          <h2 className="text-3xl font-semibold mb-4 mt-4 text-white">
+          <h2 className="text-4xl font-semibold mb-4 mt-20 text-white">
             About Zen UI
           </h2>
           <div className="w-full flex flex-row justify-center items-center mt-4">
