@@ -82,7 +82,7 @@ function Home() {
           </div>
           <Link
             to="/components"
-            className="text-white hover:bg-white font-semibold hover:text-black border border-white/25 px-8 py-4 mt-4 rounded-md"
+            className="text-white bg-gradient-to-r from-purple-600 via-pink-600 to-red-600  hover:bg-none hover:border hover:border-gray-100/25 font-semibold hover:text-white px-8 py-4 mt-4 rounded-md transition-colors duration-400"
           >
             View Components
           </Link>
