@@ -3,13 +3,52 @@ import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { MdContentCopy, MdCheck } from "react-icons/md";
 import { solarizedDarkAtom } from "react-syntax-highlighter/dist/esm/styles/prism";
 
+import Avatar from "./Avatar.Components";
 import Button from "./Button.Components";
-import buttonComponentData from "../../utils/Button.utils";
+import Card from "./Card.Components";
+import Dropdown from "./Dropdown.Components";
+import Input from "./Input.Components";
+import Modal from "./Modal.Components";
+import Navbar from "../Navbar/Navbar";
+import Table from "./Table.Components";
+import Tabs from "./Tabs.Components";
+import ProgressBar from "./ProgressBar.Components";
 
-const components = [buttonComponentData];
+import avatarComponentData from "../../utils/Avatar.utils";
+import cardComponentData from "../../utils/Card.utils";
+import buttonComponentData from "../../utils/Button.utils";
+import dropdownComponentData from "../../utils/Dropdown.utils";
+import inputComponentData from "../../utils/Input.utils";
+import modalComponentData from "../../utils/Modal.utils";
+import navbarComponentData from "../../utils/Navbar.utils";
+import tableComponentData from "../../utils/Table.utils";
+import tabsComponentData from "../../utils/Tabs.utils";
+import progressBarComponentData from "../../utils/ProgressBar.utils";
+
+const components = [
+  avatarComponentData,
+  buttonComponentData,
+  cardComponentData,
+  dropdownComponentData,
+  inputComponentData,
+  modalComponentData,
+  navbarComponentData,
+  tableComponentData,
+  tabsComponentData,
+  progressBarComponentData,
+];
 
 const componentMap = {
+  Avatar,
   Button,
+  Card,
+  Dropdown,
+  Input,
+  Modal,
+  Navbar,
+  Table,
+  Tabs,
+  ProgressBar,
 };
 
 function ComponentShowcase() {
