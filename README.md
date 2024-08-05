@@ -34,7 +34,7 @@ If you want to contribute to ZenUI or run the website locally, follow these step
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/zenui.git
+   git clone https://github.com/akshatbhj/zenui-web.git
 
 2. **Navigate to the Project Directory**:
     ```bash
