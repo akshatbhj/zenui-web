@@ -17,6 +17,7 @@ import Alert from "./Alert.Components";
 import Divider from "./Divider.Components";
 import Breadcrumb from "./Breadcrumb.Components";
 import Checkbox from "./Checkbox.Components";
+import Grid from "./Grid.Components";
 
 import avatarComponentData from "../../utils/Avatar.utils";
 import cardComponentData from "../../utils/Card.utils";
@@ -32,6 +33,7 @@ import alertComponentData from "../../utils/Alert.utils";
 import dividerComponentData from "../../utils/Divider.utils";
 import breadcrumbComponentData from "../../utils/Breadcrumb.utils";
 import checkboxComponentData from "../../utils/Checkbox.utils";
+import gridComponentData from "../../utils/Grid.utils";
 
 const components = [
   alertComponentData,
@@ -42,6 +44,7 @@ const components = [
   checkboxComponentData,
   dividerComponentData,
   dropdownComponentData,
+  gridComponentData,
   inputComponentData,
   modalComponentData,
   navbarComponentData,
@@ -59,6 +62,7 @@ const componentMap = {
   Checkbox,
   Divider,
   Dropdown,
+  Grid,
   Input,
   Modal,
   Navbar,
