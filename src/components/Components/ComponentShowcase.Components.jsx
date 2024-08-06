@@ -16,6 +16,7 @@ import ProgressBar from "./ProgressBar.Components";
 import Alert from "./Alert.Components";
 import Divider from "./Divider.Components";
 import Breadcrumb from "./Breadcrumb.Components";
+import Checkbox from "./Checkbox.Components";
 
 import avatarComponentData from "../../utils/Avatar.utils";
 import cardComponentData from "../../utils/Card.utils";
@@ -30,6 +31,7 @@ import progressBarComponentData from "../../utils/ProgressBar.utils";
 import alertComponentData from "../../utils/Alert.utils";
 import dividerComponentData from "../../utils/Divider.utils";
 import breadcrumbComponentData from "../../utils/Breadcrumb.utils";
+import checkboxComponentData from "../../utils/Checkbox.utils";
 
 const components = [
   alertComponentData,
@@ -37,6 +39,7 @@ const components = [
   breadcrumbComponentData,
   buttonComponentData,
   cardComponentData,
+  checkboxComponentData,
   dividerComponentData,
   dropdownComponentData,
   inputComponentData,
@@ -53,6 +56,7 @@ const componentMap = {
   Breadcrumb,
   Button,
   Card,
+  Checkbox,
   Divider,
   Dropdown,
   Input,
