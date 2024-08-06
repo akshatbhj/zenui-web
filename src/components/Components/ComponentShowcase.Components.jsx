@@ -15,6 +15,7 @@ import Tabs from "./Tabs.Components";
 import ProgressBar from "./ProgressBar.Components";
 import Alert from "./Alert.Components";
 import Divider from "./Divider.Components";
+import Breadcrumb from "./Breadcrumb.Components";
 
 import avatarComponentData from "../../utils/Avatar.utils";
 import cardComponentData from "../../utils/Card.utils";
@@ -28,10 +29,12 @@ import tabsComponentData from "../../utils/Tabs.utils";
 import progressBarComponentData from "../../utils/ProgressBar.utils";
 import alertComponentData from "../../utils/Alert.utils";
 import dividerComponentData from "../../utils/Divider.utils";
+import breadcrumbComponentData from "../../utils/Breadcrumb.utils";
 
 const components = [
   alertComponentData,
   avatarComponentData,
+  breadcrumbComponentData,
   buttonComponentData,
   cardComponentData,
   dividerComponentData,
@@ -47,6 +50,7 @@ const components = [
 const componentMap = {
   Avatar,
   Alert,
+  Breadcrumb,
   Button,
   Card,
   Divider,
