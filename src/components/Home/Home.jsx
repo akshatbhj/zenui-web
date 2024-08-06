@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { FaFeatherAlt, FaMagic, FaRocket } from "react-icons/fa";
 
 function Home() {
   return (
@@ -18,32 +19,48 @@ function Home() {
         </header>
       </div>
       <main>
-        <section className="flex flex-col justify-center  bg-black items-center w-full h-[600px]">
-          <h2 className="text-4xl font-bold mb-4 mt-20 text-white">
-            About Zen UI
-          </h2>
-          <div className="w-full flex flex-row justify-center items-center mt-4">
-            <div className="p-8 px-12 w-[50%] border border-white/25 m-4">
-              <p className="text-gray-400 text-2xl leading-relaxed">
-                Zen UI is a minimalist and straightforward UI components library
-                for React. Designed with simplicity and elegance in mind, Zen
-                provides a set of essential, customizable components to help you
-                build clean and efficient user interfaces with ease. Our
-                components are lightweight, easy to use, and fully customizable
-                to fit your design needs.
-              </p>
-            </div>
-            <div className="p-8 px-12 w-[50%] border border-white/25 m-4">
-              <p className="text-gray-400 text-2xl leading-relaxed">
-                Zen UI is a minimalist and straightforward UI components library
-                for React. Designed with simplicity and elegance in mind, Zen
-                provides a set of essential, customizable components to help you
-                build clean and efficient user interfaces with ease. Our
-                components are lightweight, easy to use, and fully customizable
-                to fit your design needs.
-              </p>
+        <section className="flex flex-col justify-center items-center w-full h-[600px] bg-black relative overflow-hidden">
+          <div className="relative z-10 flex flex-col items-center w-full h-full">
+            <h2 className="text-4xl font-bold mb-8 mt-20 text-white">
+              About Zen UI
+            </h2>
+            <div className="w-full flex flex-col md:flex-row justify-center items-center mt-4">
+              <div className="p-8 px-12 w-full md:w-[30%] m-4 rounded-lg bg-gradient-to-r from-purple-600 via-pink-600 to-red-600 backdrop-blur-sm transform hover:scale-105 transition-transform duration-300 text-center">
+                <FaFeatherAlt className="text-5xl text-white mb-4" />
+                <h3 className="text-2xl text-white font-bold mb-2">
+                  Lightweight
+                </h3>
+                <p className="text-white text-lg leading-relaxed">
+                  Zen UI components are designed to be lightweight and fast,
+                  ensuring quick load times and a smooth user experience.
+                </p>
+              </div>
+
+              <div className="p-8 px-12 w-full md:w-[30%] m-4 rounded-lg bg-gradient-to-r from-purple-600 via-pink-600 to-red-600 backdrop-blur-sm transform hover:scale-105 transition-transform duration-300 text-center">
+                <FaMagic className="text-5xl text-white mb-4" />
+                <h3 className="text-2xl text-white font-bold mb-2">
+                  Customizable
+                </h3>
+                <p className="text-white text-lg leading-relaxed">
+                  Easily customize each component to match your design needs.
+                  Zen UI offers flexibility with a minimalist touch.
+                </p>
+              </div>
+
+              <div className="p-8 px-12 w-full md:w-[30%] m-4 rounded-lg bg-gradient-to-r from-purple-600 via-pink-600 to-red-600 backdrop-blur-sm transform hover:scale-105 transition-transform duration-300 text-center">
+                <FaRocket className="text-5xl text-white mb-4" />
+                <h3 className="text-2xl text-white font-bold mb-2">
+                  Fast Development
+                </h3>
+                <p className="text-white text-lg leading-relaxed">
+                  Accelerate your development with easy-to-use, pre-designed
+                  components, so you can focus on functionality and user
+                  experience.
+                </p>
+              </div>
             </div>
           </div>
+          <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent to-black opacity-60"></div>
         </section>
         <section className="flex flex-col justify-center items-center w-full h-[500px]  bg-black bg-[linear-gradient(to_right,rgba(128,128,128,0.2)_1px,transparent_1px),linear-gradient(to_bottom,rgba(128,128,128,0.2)_1px,transparent_1px)] bg-[size:48px_48px]">
           <h2 className="text-4xl text-white font-bold mb-8 mt-[-5rem]">

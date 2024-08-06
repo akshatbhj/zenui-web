@@ -61,7 +61,7 @@ export default function Footer() {
               target="_blank"
               className="hover:underline"
             >
-              akshatbhj
+              akshatbhj & ZenUI
             </a>
             . All Rights Reserved.
           </span>
