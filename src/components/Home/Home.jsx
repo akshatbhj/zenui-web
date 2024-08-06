@@ -18,8 +18,8 @@ function Home() {
         </header>
       </div>
       <main>
-        <section className="flex flex-col justify-center  bg-black items-center w-full h-[500px]">
-          <h2 className="text-4xl font-semibold mb-4 mt-20 text-white">
+        <section className="flex flex-col justify-center  bg-black items-center w-full h-[600px]">
+          <h2 className="text-4xl font-bold mb-4 mt-20 text-white">
             About Zen UI
           </h2>
           <div className="w-full flex flex-row justify-center items-center mt-4">
@@ -45,8 +45,8 @@ function Home() {
             </div>
           </div>
         </section>
-        <section className="flex flex-col justify-center bg-black items-center w-full h-[500px]">
-          <h2 className="text-3xl text-white font-semibold mb-8 mt-[-3rem]">
+        <section className="flex flex-col justify-center items-center w-full h-[500px]  bg-black bg-[linear-gradient(to_right,rgba(128,128,128,0.2)_1px,transparent_1px),linear-gradient(to_bottom,rgba(128,128,128,0.2)_1px,transparent_1px)] bg-[size:48px_48px]">
+          <h2 className="text-4xl text-white font-bold mb-8 mt-[-5rem]">
             Features
           </h2>
           <ul className="list-disc list-inside text-2xl text-gray-400 space-y-4 leading-relaxed">
@@ -69,7 +69,7 @@ function Home() {
           </ul>
         </section>
         <section className="flex flex-col justify-center bg-black items-center w-full h-[500px]">
-          <h2 className="text-3xl text-white font-semibold mb-8 mt-[-5rem]">
+          <h2 className="text-4xl text-white font-bold mb-8 mt-[-5rem]">
             Get Started
           </h2>
           <div className="flex justify-center items-center py-8 px-20 w-full mx-auto">

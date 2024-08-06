@@ -1,5 +1,5 @@
 const progessBarComponentData = {
-  name: "Progress Bar",
+  name: "ProgressBar",
   code: `import React from 'react';
 
 const Progress = () => {
