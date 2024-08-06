@@ -13,6 +13,7 @@ import Navbar from "../Navbar/Navbar";
 import Table from "./Table.Components";
 import Tabs from "./Tabs.Components";
 import ProgressBar from "./ProgressBar.Components";
+import Alert from "./Alert.Components";
 
 import avatarComponentData from "../../utils/Avatar.utils";
 import cardComponentData from "../../utils/Card.utils";
@@ -24,6 +25,7 @@ import navbarComponentData from "../../utils/Navbar.utils";
 import tableComponentData from "../../utils/Table.utils";
 import tabsComponentData from "../../utils/Tabs.utils";
 import progressBarComponentData from "../../utils/ProgressBar.utils";
+import alertComponentData from "../../utils/Alert.utils";
 
 const components = [
   avatarComponentData,
@@ -36,6 +38,7 @@ const components = [
   tableComponentData,
   tabsComponentData,
   progressBarComponentData,
+  alertComponentData,
 ];
 
 const componentMap = {
@@ -49,6 +52,7 @@ const componentMap = {
   Table,
   Tabs,
   ProgressBar,
+  Alert,
 };
 
 function ComponentShowcase() {
