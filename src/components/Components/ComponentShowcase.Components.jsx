@@ -14,6 +14,7 @@ import Table from "./Table.Components";
 import Tabs from "./Tabs.Components";
 import ProgressBar from "./ProgressBar.Components";
 import Alert from "./Alert.Components";
+import Divider from "./Divider.Components";
 
 import avatarComponentData from "../../utils/Avatar.utils";
 import cardComponentData from "../../utils/Card.utils";
@@ -26,11 +27,14 @@ import tableComponentData from "../../utils/Table.utils";
 import tabsComponentData from "../../utils/Tabs.utils";
 import progressBarComponentData from "../../utils/ProgressBar.utils";
 import alertComponentData from "../../utils/Alert.utils";
+import dividerComponentData from "../../utils/Divider.utils";
 
 const components = [
+  alertComponentData,
   avatarComponentData,
   buttonComponentData,
   cardComponentData,
+  dividerComponentData,
   dropdownComponentData,
   inputComponentData,
   modalComponentData,
@@ -38,13 +42,14 @@ const components = [
   tableComponentData,
   tabsComponentData,
   progressBarComponentData,
-  alertComponentData,
 ];
 
 const componentMap = {
   Avatar,
+  Alert,
   Button,
   Card,
+  Divider,
   Dropdown,
   Input,
   Modal,
@@ -52,7 +57,6 @@ const componentMap = {
   Table,
   Tabs,
   ProgressBar,
-  Alert,
 };
 
 function ComponentShowcase() {
