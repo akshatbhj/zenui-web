@@ -6,6 +6,7 @@ import {
   FaNodeJs,
   FaBookOpen,
   FaGitAlt,
+  FaBolt
 } from "react-icons/fa";
 
 function About() {
@@ -90,6 +91,15 @@ function About() {
               A distributed version control system that helps developers track
               changes in source code during software development, facilitating
               collaboration.
+            </p>
+          </div>
+          <div className="flex flex-col items-center border border-white/25 rounded-md p-6">
+            <FaBolt className="text-yellow-400 text-6xl mb-4" />
+            <span className="text-xl font-semibold text-gray-100">Vite</span>
+            <p className="text-center text-gray-400 mt-2">
+              A next-generation frontend tooling providing lightning-fast
+              development experience, with support for hot module replacement
+              and modern JavaScript.
             </p>
           </div>
         </div>
