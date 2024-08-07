@@ -11,17 +11,17 @@ const Slider = () => {
   };
 
   return (
-    <div className="flex items-center justify-center h-screen bg-gray-900">
-      <div className="w-full max-w-md mx-auto px-4">
+    <div className="flex items-center justify-center h-[50px]">
+      <div className="flex items-center">
         <input
           type="range"
           min="0"
           max="100"
           value={value}
           onChange={handleChange}
-          className="w-full h-2 bg-gray-600 rounded-lg appearance-none cursor-pointer slider-thumb"
+          className="w-64 h-3 accent-gray-500 rounded-lg cursor-pointer slider-thumb"
         />
-        <div className="text-gray-100 text-center mt-2">{value}</div>
+        <div className="ml-4 text-gray-800 text-sm font-bold">{value}</div>
       </div>
     </div>
   );
