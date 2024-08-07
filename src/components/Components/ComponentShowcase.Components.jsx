@@ -20,6 +20,7 @@ import Checkbox from "./Checkbox.Components";
 import Grid from "./Grid.Components";
 import Radio from "./Radio.Components";
 import Slider from "./Slider.Components";
+import DatePicker from "./DatePicker.Components";
 
 import avatarComponentData from "../../utils/Avatar.utils";
 import cardComponentData from "../../utils/Card.utils";
@@ -38,6 +39,7 @@ import checkboxComponentData from "../../utils/Checkbox.utils";
 import gridComponentData from "../../utils/Grid.utils";
 import radioComponentData from "../../utils/Radio.utils";
 import sliderComponentData from "../../utils/Slider.utils";
+import datePickerComponentData from "../../utils/DatePicker.utils";
 
 const components = [
   alertComponentData,
@@ -46,6 +48,7 @@ const components = [
   buttonComponentData,
   cardComponentData,
   checkboxComponentData,
+  datePickerComponentData,
   dividerComponentData,
   dropdownComponentData,
   gridComponentData,
@@ -66,6 +69,7 @@ const componentMap = {
   Button,
   Card,
   Checkbox,
+  DatePicker,
   Divider,
   Dropdown,
   Grid,
