@@ -19,7 +19,7 @@ import Breadcrumb from "./Breadcrumb.Components";
 import Checkbox from "./Checkbox.Components";
 import Grid from "./Grid.Components";
 import Radio from "./Radio.Components";
-// import Slider from "./Slider.Components";
+import Slider from "./Slider.Components";
 
 import avatarComponentData from "../../utils/Avatar.utils";
 import cardComponentData from "../../utils/Card.utils";
@@ -37,7 +37,7 @@ import breadcrumbComponentData from "../../utils/Breadcrumb.utils";
 import checkboxComponentData from "../../utils/Checkbox.utils";
 import gridComponentData from "../../utils/Grid.utils";
 import radioComponentData from "../../utils/Radio.utils";
-// import sliderComponentData from "../../utils/Slider.utils";
+import sliderComponentData from "../../utils/Slider.utils";
 
 const components = [
   alertComponentData,
@@ -52,7 +52,7 @@ const components = [
   inputComponentData,
   modalComponentData,
   navbarComponentData,
-  // sliderComponentData,
+  sliderComponentData,
   tableComponentData,
   tabsComponentData,
   progressBarComponentData,
@@ -72,7 +72,7 @@ const componentMap = {
   Input,
   Modal,
   Navbar,
-  // Slider,
+  Slider,
   Table,
   Tabs,
   ProgressBar,
