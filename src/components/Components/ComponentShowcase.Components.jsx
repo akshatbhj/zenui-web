@@ -19,6 +19,7 @@ import Breadcrumb from "./Breadcrumb.Components";
 import Checkbox from "./Checkbox.Components";
 import Grid from "./Grid.Components";
 import Radio from "./Radio.Components";
+import Slider from "./Slider.Components";
 
 import avatarComponentData from "../../utils/Avatar.utils";
 import cardComponentData from "../../utils/Card.utils";
@@ -36,6 +37,7 @@ import breadcrumbComponentData from "../../utils/Breadcrumb.utils";
 import checkboxComponentData from "../../utils/Checkbox.utils";
 import gridComponentData from "../../utils/Grid.utils";
 import radioComponentData from "../../utils/Radio.utils";
+import sliderComponentData from "../../utils/Slider.utils";
 
 const components = [
   alertComponentData,
@@ -50,6 +52,7 @@ const components = [
   inputComponentData,
   modalComponentData,
   navbarComponentData,
+  sliderComponentData,
   tableComponentData,
   tabsComponentData,
   progressBarComponentData,
@@ -69,6 +72,7 @@ const componentMap = {
   Input,
   Modal,
   Navbar,
+  Slider,
   Table,
   Tabs,
   ProgressBar,
@@ -118,10 +122,10 @@ function ComponentShowcase() {
             {filteredComponents.map((component, index) => (
               <li
                 key={index}
-                className={`p-2 text-gray-500 font-semibold cursor-pointer rounded-md transform transition duration-300 ease-out ${
+                className={`p-2 font-semibold cursor-pointer rounded-md transform transition duration-300 ease-out ${
                   selectedComponent.name === component.name
-                    ? "font-bold text-black bg-gray-100 shadow-md my-2"
-                    : "hover:bg-gray-100 hover:shadow-md hover:scale-105 hover:text-gray-500 hover:font-semibold"
+                    ? "text-black font-bold bg-gray-100 shadow-md my-2"
+                    : "text-gray-400 hover:bg-gray-100 hover:shadow-md hover:scale-105 hover:text-black hover:font-semibold"
                 }`}
                 onClick={() => setSelectedComponent(component)}
               >
