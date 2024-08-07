@@ -20,7 +20,9 @@ import Checkbox from "./Checkbox.Components";
 import Grid from "./Grid.Components";
 import Radio from "./Radio.Components";
 import Slider from "./Slider.Components";
+import TimePicker from "./TimePicker.Components";
 import DatePicker from "./DatePicker.Components";
+import Menu from "./Menu.Components";
 
 import avatarComponentData from "../../utils/Avatar.utils";
 import cardComponentData from "../../utils/Card.utils";
@@ -40,6 +42,8 @@ import gridComponentData from "../../utils/Grid.utils";
 import radioComponentData from "../../utils/Radio.utils";
 import sliderComponentData from "../../utils/Slider.utils";
 import datePickerComponentData from "../../utils/DatePicker.utils";
+import timePickerComponentData from "../../utils/TimePicker.utils";
+import menuComponentData from "../../utils/Menu.utils";
 
 const components = [
   alertComponentData,
@@ -53,11 +57,13 @@ const components = [
   dropdownComponentData,
   gridComponentData,
   inputComponentData,
+  menuComponentData,
   modalComponentData,
   navbarComponentData,
   sliderComponentData,
   tableComponentData,
   tabsComponentData,
+  timePickerComponentData,
   progressBarComponentData,
   radioComponentData,
 ];
@@ -74,11 +80,13 @@ const componentMap = {
   Dropdown,
   Grid,
   Input,
+  Menu,
   Modal,
   Navbar,
   Slider,
   Table,
   Tabs,
+  TimePicker,
   ProgressBar,
   Radio,
 };
