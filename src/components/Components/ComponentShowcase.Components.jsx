@@ -18,6 +18,7 @@ import Divider from "./Divider.Components";
 import Breadcrumb from "./Breadcrumb.Components";
 import Checkbox from "./Checkbox.Components";
 import Grid from "./Grid.Components";
+import Radio from "./Radio.Components";
 
 import avatarComponentData from "../../utils/Avatar.utils";
 import cardComponentData from "../../utils/Card.utils";
@@ -34,6 +35,7 @@ import dividerComponentData from "../../utils/Divider.utils";
 import breadcrumbComponentData from "../../utils/Breadcrumb.utils";
 import checkboxComponentData from "../../utils/Checkbox.utils";
 import gridComponentData from "../../utils/Grid.utils";
+import radioComponentData from "../../utils/Radio.utils";
 
 const components = [
   alertComponentData,
@@ -51,6 +53,7 @@ const components = [
   tableComponentData,
   tabsComponentData,
   progressBarComponentData,
+  radioComponentData,
 ];
 
 const componentMap = {
@@ -69,6 +72,7 @@ const componentMap = {
   Table,
   Tabs,
   ProgressBar,
+  Radio,
 };
 
 function ComponentShowcase() {
