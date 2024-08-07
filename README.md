@@ -14,6 +14,8 @@ Our website showcases all the components available in ZenUI. Each component is d
 - **Search**: Quickly find components using the search bar.
 - **Code Copy**: Easily copy the code for each component to use in your projects.
 
+![about zenui](./src/assets/about.png)
+
 ### How to Use the Website
 
 1. **Visit the ZenUI Website**: Navigate to the [ZenUI website↗️](https://zenui.vercel.app)
