@@ -3,47 +3,51 @@ import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { MdContentCopy, MdCheck } from "react-icons/md";
 import { solarizedDarkAtom } from "react-syntax-highlighter/dist/esm/styles/prism";
 
-import Avatar from "./Avatar.Components";
-import Button from "./Button.Components";
-import Card from "./Card.Components";
-import Dropdown from "./Dropdown.Components";
-import Input from "./Input.Components";
-import Modal from "./Modal.Components";
-import Navbar from "../Navbar/Navbar";
-import Table from "./Table.Components";
-import Tabs from "./Tabs.Components";
-import ProgressBar from "./ProgressBar.Components";
-import Alert from "./Alert.Components";
-import Divider from "./Divider.Components";
-import Breadcrumb from "./Breadcrumb.Components";
-import Checkbox from "./Checkbox.Components";
-import Grid from "./Grid.Components";
-import Radio from "./Radio.Components";
-import Slider from "./Slider.Components";
-import TimePicker from "./TimePicker.Components";
-import DatePicker from "./DatePicker.Components";
-import Menu from "./Menu.Components";
+import {
+  Avatar,
+  Button,
+  Card,
+  Dropdown,
+  Input,
+  Modal,
+  Navbar,
+  Table,
+  Tabs,
+  ProgressBar,
+  Alert,
+  Divider,
+  Breadcrumb,
+  Checkbox,
+  Grid,
+  Radio,
+  Slider,
+  TimePicker,
+  DatePicker,
+  Menu,
+} from "./index.Components.js";
 
-import avatarComponentData from "../../utils/Avatar.utils";
-import cardComponentData from "../../utils/Card.utils";
-import buttonComponentData from "../../utils/Button.utils";
-import dropdownComponentData from "../../utils/Dropdown.utils";
-import inputComponentData from "../../utils/Input.utils";
-import modalComponentData from "../../utils/Modal.utils";
-import navbarComponentData from "../../utils/Navbar.utils";
-import tableComponentData from "../../utils/Table.utils";
-import tabsComponentData from "../../utils/Tabs.utils";
-import progressBarComponentData from "../../utils/ProgressBar.utils";
-import alertComponentData from "../../utils/Alert.utils";
-import dividerComponentData from "../../utils/Divider.utils";
-import breadcrumbComponentData from "../../utils/Breadcrumb.utils";
-import checkboxComponentData from "../../utils/Checkbox.utils";
-import gridComponentData from "../../utils/Grid.utils";
-import radioComponentData from "../../utils/Radio.utils";
-import sliderComponentData from "../../utils/Slider.utils";
-import datePickerComponentData from "../../utils/DatePicker.utils";
-import timePickerComponentData from "../../utils/TimePicker.utils";
-import menuComponentData from "../../utils/Menu.utils";
+import {
+  alertComponentData,
+  avatarComponentData,
+  breadcrumbComponentData,
+  buttonComponentData,
+  cardComponentData,
+  checkboxComponentData,
+  datePickerComponentData,
+  dividerComponentData,
+  dropdownComponentData,
+  gridComponentData,
+  inputComponentData,
+  menuComponentData,
+  modalComponentData,
+  navbarComponentData,
+  sliderComponentData,
+  tableComponentData,
+  tabsComponentData,
+  timePickerComponentData,
+  progressBarComponentData,
+  radioComponentData,
+} from "../../utils/index.utils.js";
 
 const components = [
   alertComponentData,
