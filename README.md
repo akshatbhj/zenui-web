@@ -1,14 +1,15 @@
-# ZenUI
+# **ZenUI**       
 
-ZenUI is a minimalistic UI components library for React designed to be simple and elegant. This repository contains the website for ZenUI, where you can explore and interact with the various components in the library.
+
+**ZenUI** is a minimalistic UI components library for React designed to be simple and elegant. This repository contains the website for ZenUI, where you can explore and interact with the various components in the library.
 
 ![Website-Preview](./src/assets/website-preview.png)
 
-## Explore ZenUI Components
+## **Explore ZenUI Components**
 
 Our website showcases all the components available in ZenUI. Each component is displayed with a live preview and the corresponding code snippet, allowing you to see how it works and integrate it into your own projects.
 
-### Features
+### **Features**
 
 - **Component Gallery**: Browse through a collection of UI components with a live preview of each.
 - **Search**: Quickly find components using the search bar.
@@ -16,7 +17,7 @@ Our website showcases all the components available in ZenUI. Each component is d
 
 ![about zenui](./src/assets/about.png)
 
-### How to Use the Website
+### **How to Use the Website**
 
 1. **Visit the ZenUI Website**: Navigate to the [ZenUI website↗️](https://zenui.vercel.app)
 
@@ -30,8 +31,7 @@ Our website showcases all the components available in ZenUI. Each component is d
 
    ![Code Preview](./src/assets/code.png)
 
-### Development
-
+### **Development**
 If you want to contribute to ZenUI or run the website locally, follow these steps:
 
 1. **Clone the Repository**:
@@ -52,7 +52,7 @@ If you want to contribute to ZenUI or run the website locally, follow these step
 
 This will start the development server and open the website in your default browser.
 
-### Contributing
+### **Contributing**
 We welcome contributions to ZenUI! If you have ideas for new components, improvements, or bug fixes, please feel free to open an issue or submit a pull request.
 
 1. **Fork the Repository**: Click on the "Fork" button at the top-right of this page.
@@ -72,8 +72,8 @@ We welcome contributions to ZenUI! If you have ideas for new components, improve
 
 5. **Open a Pull Request**: Go to the repository on GitHub and click on the "New Pull Request" button.
 
-### License
+### **License**
 ZenUI is licensed under the MIT License. See the LICENSE file for more details.
 
-### Contact
+### **Contact**
 For any questions or support, please contact us at akshatbhj@gmail.com.
