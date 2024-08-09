@@ -3,6 +3,9 @@
 
 **ZenUI** is a minimalistic UI components library for React designed to be simple and elegant. This repository contains the website for ZenUI, where you can explore and interact with the various components in the library.
 
+![npm version](https://img.shields.io/npm/v/zenui-lib.svg)
+
+
 ![Website-Preview](./src/assets/website-preview.png)
 
 ## **Explore ZenUI Components**
@@ -45,6 +48,7 @@ If you want to contribute to ZenUI or run the website locally, follow these step
 3. **Install Dependencies**:
     ```bash
     npm install
+
 
 4. **Run the Development Server**:
     ```bash 
