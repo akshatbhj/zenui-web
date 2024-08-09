@@ -4,7 +4,7 @@ import Card from "./Card.Components";
 import Dropdown from "./Dropdown.Components";
 import Input from "./Input.Components";
 import Modal from "./Modal.Components";
-import Navbar from "../Navbar/Navbar";
+import Navbar from "./Navbar.Components";
 import Table from "./Table.Components";
 import Tabs from "./Tabs.Components";
 import ProgressBar from "./ProgressBar.Components";
