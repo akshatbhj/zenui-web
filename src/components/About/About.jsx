@@ -9,6 +9,8 @@ import {
   FaBolt
 } from "react-icons/fa";
 
+import avatar from '../../assets/avatar.jpg';
+
 function About() {
   return (
     <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 bg-black bg-[linear-gradient(to_right,rgba(128,128,128,0.2)_1px,transparent_1px),linear-gradient(to_bottom,rgba(128,128,128,0.2)_1px,transparent_1px)] bg-[size:48px_48px] pointer-events-none z-[-1] text-gray-100">
@@ -112,7 +114,7 @@ function About() {
         <div className="flex items-center justify-center">
           <div className="flex justify-center items-center">
             <img
-              src="src\assets\avatar.jpg"
+              src={avatar}
               alt="Creator"
               className="w-48 h-48 rounded-lg"
             />
