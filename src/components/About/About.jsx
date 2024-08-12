@@ -112,7 +112,7 @@ function About() {
         <div className="flex items-center justify-center">
           <div className="flex justify-center items-center">
             <img
-              src="https://via.placeholder.com/300x300"
+              src="src\assets\avatar.jpg"
               alt="Creator"
               className="w-48 h-48 rounded-lg"
             />
