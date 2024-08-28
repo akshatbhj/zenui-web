@@ -1,17 +1,16 @@
 import { Link } from "react-router-dom";
-
 export default function Footer() {
   return (
-    <footer className="bg-white border-y px-8">
-      <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+    <footer className="bg-white border-y px-8 font-varela ">
+      <div className="mx-auto w-full max-w-screen-xl py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <Link to="/" className="flex items-center">
               <img src="/icon.svg" className="mr-3 h-16" alt="Logo" />
             </Link>
           </div>
-          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-            <div>
+          <div className="grid grid-cols-1 gap-8 sm:gap-6 sm:grid-cols-2">
+            <div className="flex flex-col justify-center items-center">
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">
                 Resources
               </h2>
@@ -28,7 +27,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div>
+            <div className="flex flex-col justify-center items-center">
               <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">
                 Follow us
               </h2>
@@ -44,7 +43,11 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <Link to="https://x.com/akshatbhj" target="_blank" className="hover:underline">
+                  <Link
+                    to="https://x.com/akshatbhj"
+                    target="_blank"
+                    className="hover:underline"
+                  >
                     Twitter
                   </Link>
                 </li>
@@ -66,7 +69,11 @@ export default function Footer() {
             . All Rights Reserved.
           </span>
           <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
-            <Link to="https://x.com/akshatbhj" target="_blank" className="text-gray-500">
+            <Link
+              to="https://x.com/akshatbhj"
+              target="_blank"
+              className="text-gray-500"
+            >
               <svg
                 className="w-4 h-4"
                 aria-hidden="true"
@@ -82,7 +89,11 @@ export default function Footer() {
               </svg>
               <span className="sr-only">Twitter page</span>
             </Link>
-            <Link to="https://github.com/akshatbhj" target="_blank" className="text-gray-500">
+            <Link
+              to="https://github.com/akshatbhj"
+              target="_blank"
+              className="text-gray-500"
+            >
               <svg
                 className="w-4 h-4"
                 aria-hidden="true"

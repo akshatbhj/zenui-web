@@ -6,17 +6,19 @@ import {
   FaNodeJs,
   FaBookOpen,
   FaGitAlt,
-  FaBolt
+  FaBolt,
 } from "react-icons/fa";
 
-import avatar from '../../assets/avatar.jpg';
+import avatar from "../../assets/avatar.jpg";
 
 function About() {
   return (
     <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 bg-black bg-[linear-gradient(to_right,rgba(128,128,128,0.2)_1px,transparent_1px),linear-gradient(to_bottom,rgba(128,128,128,0.2)_1px,transparent_1px)] bg-[size:48px_48px] pointer-events-none z-[-1] text-gray-100">
       <section className="mb-16 text-center bg-gradient-to-r from-purple-600 via-pink-600 to-red-600 py-12 rounded-lg shadow-lg">
-        <h1 className="text-5xl font-extrabold text-white mb-4">About ZenUI</h1>
-        <p className="text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed">
+        <h1 className="text-5xl font-extrabold text-white mb-4">
+          About <span className="font-righteous" >ZenUI</span>
+        </h1>
+        <p className="text-xl font-varela text-gray-200 max-w-3xl mx-auto leading-relaxed">
           ZenUI is a minimalist and intuitive UI components library designed to
           elevate web development with a focus on simplicity and elegance.
           Drawing inspiration from the sleek design language of iOS, ZenUI
@@ -25,7 +27,7 @@ function About() {
         </p>
       </section>
 
-      <section className="mb-16 bg-gray-800 py-12 rounded-lg shadow-lg">
+      <section className="mb-16 bg-gray-800 font-varela py-12 rounded-lg shadow-lg">
         <h2 className="text-4xl font-bold text-gray-100 mb-12 text-center">
           Tools Used
         </h2>
@@ -33,7 +35,7 @@ function About() {
           <div className="flex flex-col items-center border border-white/25 p-6 rounded-md">
             <FaReact className="text-blue-400 text-6xl mb-4" />
             <span className="text-xl font-semibold text-gray-100">React</span>
-            <p className="text-center text-gray-400 mt-2">
+            <p className="text-center font-varela text-gray-400 mt-2">
               A powerful JavaScript library for building dynamic user interfaces
               using a component-based architecture.
             </p>
@@ -107,17 +109,13 @@ function About() {
         </div>
       </section>
 
-      <section className="bg-gray-800 py-12 rounded-lg shadow-lg">
+      <section className="bg-gray-800 py-12 rounded-lg font-varela shadow-lg">
         <h2 className="text-4xl font-bold text-gray-100 mb-8 text-center">
           About the Creator
         </h2>
         <div className="flex items-center justify-center">
           <div className="flex justify-center items-center">
-            <img
-              src={avatar}
-              alt="Creator"
-              className="w-48 h-48 rounded-lg"
-            />
+            <img src={avatar} alt="Creator" className="w-48 h-48 rounded-lg" />
           </div>
           <div className="md:w-2/3 md:pl-8">
             <p className="text-xl text-gray-300 leading-relaxed text-center md:text-left">

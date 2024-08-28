@@ -7,18 +7,18 @@ function Navbar() {
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <Link to="/" className="flex items-center">
             <img src="/icon.svg" className="mr-3 h-12" alt="Logo" />
-            <h1 className="text-white font-bold text-3xl">Zen</h1>
+            <h1 className="text-white font-righteous text-3xl">ZenUI</h1>
           </Link>
           <div className="flex items-center lg:order-2">
             <Link
               to="/components"
-              className="text-white bg-gray-700/25 bg-gradient-to-r hover:from-purple-600 hover:via-pink-600 hover:to-red-600 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
+              className="text-white font-varela bg-gray-700/25 bg-gradient-to-r hover:from-purple-600 hover:via-pink-600 hover:to-red-600 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
             >
               Get started &#8594;
             </Link>
           </div>
           <div className="hidden justify-center items-center w-full lg:flex lg:w-auto lg:order-1">
-            <ul className="flex justify-center items-center space-x-8 mt-4 font-medium lg:mt-0">
+            <ul className="flex justify-center items-center space-x-8 mt-4 font-medium font-varela lg:mt-0">
               <li>
                 <NavLink
                   to="/"

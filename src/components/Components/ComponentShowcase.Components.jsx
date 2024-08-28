@@ -123,7 +123,7 @@ function ComponentShowcase() {
   };
 
   return (
-    <div className="flex h-screen flex-col">
+    <div className="flex h-screen flex-col font-varela">
       <div className="flex flex-1">
         <aside className="w-1/5 bg-gray-100 p-4 overflow-y-auto">
           <input

@@ -3,15 +3,15 @@ import { FaFeatherAlt, FaMagic, FaRocket } from "react-icons/fa";
 
 function Home() {
   return (
-    <div className="w-full mx-auto">
+    <div className="w-full mx-auto font-varela">
       <div className="flex flex-col justify-center bg-black items-center w-full h-[550px]">
         <header className="text-center mb-8">
           <div className="absolute h-full w-full inset-0  bg-black bg-[linear-gradient(to_right,rgba(128,128,128,0.2)_1px,transparent_1px),linear-gradient(to_bottom,rgba(128,128,128,0.2)_1px,transparent_1px)] bg-[size:48px_48px]"></div>
           <div className="relative z-10 p-4">
-            <h1 className="text-6xl font-bold mb-2 text-white">
+            <h1 className="text-7xl font-righteous font-bold mb-2 text-white">
               Minimalist UI for the web.
             </h1>
-            <p className="text-xl mt-4 text-gray-400">
+            <p className="text-xl mt-4 font-varela text-gray-400">
               Zen UI provides minimalist and simple UI components for your
               projects.
             </p>
@@ -54,8 +54,7 @@ function Home() {
                 </h3>
                 <p className="text-white text-lg leading-relaxed">
                   Accelerate your development with easy-to-use, pre-designed
-                  components, so you can focus on functionality and user
-                  experience.
+                  components, so you can focus on functionality.
                 </p>
               </div>
             </div>
@@ -89,17 +88,16 @@ function Home() {
           <h2 className="text-4xl text-white font-bold mb-8 mt-[-5rem]">
             Get Started
           </h2>
-          <div className="flex justify-center items-center py-8 px-20 w-full mx-auto">
+          <div className="flex justify-center items-center py-4 px-24 w-full mx-auto">
             <p className="text-gray-400 leading-relaxed text-2xl">
               Explore our library of components and see how Zen UI can simplify
-              your development process. Check out the code examples and
-              documentation to start integrating Zen UI into your projects
-              today.
+              your development process.
+              Check out the code examples to start integrating Zen UI into your projects today.
             </p>
           </div>
           <Link
             to="/components"
-            className="text-white bg-gradient-to-r from-purple-600 via-pink-600 to-red-600  hover:bg-none hover:border hover:border-gray-100/25 font-semibold hover:text-white px-8 py-4 mt-4 rounded-md transition-colors duration-400"
+            className="text-white bg-gradient-to-r from-purple-600 via-pink-600 to-red-600  hover:bg-none hover:border hover:border-gray-100/25 hover:text-white px-8 py-4 mt-4 rounded-md transition-colors duration-400"
           >
             View Components
           </Link>
